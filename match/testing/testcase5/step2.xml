@@ -1,0 +1,6 @@
+152
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions account="3">
+  <order sym="Protoss" amount="-80" limit="10"/>
+  <query id="1"/>
+</transactions>

@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    volumes:
+      - ./initial_sql:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=950703
+    expose:
+      - "3306"
+    ports:
+      - "9999:3306"
+  server:
+    build: ./match
+    command: /code/start.sh
+    volumes:
+      - ./match:/hw4
+    expose:
+     - "12345"
+    ports:
+     - "12345:12345"
+    depends_on:
+     - db

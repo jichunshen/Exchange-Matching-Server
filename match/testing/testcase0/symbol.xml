@@ -1,0 +1,7 @@
+126
+<?xml version=1.0 encoding=UTF-8?>
+<create>
+	<symbol sym="Human">
+		<account id="10000">10</account>
+	</symbol>
+</create>

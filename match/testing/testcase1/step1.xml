@@ -1,0 +1,19 @@
+464
+<?xml version="1.0" encoding="UTF-8"?>
+<create>
+	<account id="1" balance="1000"/>
+	<symbol sym="Human">
+		<account id="1">10</account>
+		<account id="2">20</account>
+	</symbol>
+	<account id="2" balance="2000"/>
+	<account id="1" balance="3000"/>
+	<symbol sym="Protoss">
+		<account id="2">99</account>
+		<account id="1">88</account>
+	</symbol>
+	<symbol sym="Zerg">
+		<account id="1">10</account>
+		<account id="4">20</account>
+	</symbol>
+</create>

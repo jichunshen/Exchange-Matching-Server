@@ -1,0 +1,7 @@
+232
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions account="2">
+  <order sym="Protoss" amount="-10" limit="5"/>
+  <order sym="Protoss" amount="-10" limit="10"/>
+  <order sym="Protoss" amount="-10" limit="15"/>
+</transactions>
